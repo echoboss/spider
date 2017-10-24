@@ -11,6 +11,6 @@ import scrapy
 class MeituluItem(scrapy.Item):
     # define the fields for your item here like:
     name = scrapy.Field()
-    type = scrapy.Field()
+    types = scrapy.Field()
     url = scrapy.Field()
-    img_list = scrapy.Field()
+    num = scrapy.Field()
